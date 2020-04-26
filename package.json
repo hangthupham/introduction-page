@@ -1,0 +1,36 @@
+{
+  "name": "introduction-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-less": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "axios": "^0.19.2",
+    "classname": "^0.0.0",
+    "classnames": "^2.2.6",
+    "nanoid": "^3.1.3",
+    "next": "9.3.4",
+    "next-images": "^1.4.0",
+    "node-sass": "^4.13.1",
+    "path": "^0.12.7",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "sass": "^1.26.3"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.8.3",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/node": "^13.11.1",
+    "@typescript-eslint/eslint-plugin": "^2.27.0",
+    "@typescript-eslint/parser": "^2.27.0",
+    "babel-plugin-import": "^1.13.0",
+    "typescript": "^3.8.3"
+  }
+}

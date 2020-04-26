@@ -1,0 +1,23 @@
+.item {
+  color: #4d4d4d;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.item h1 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.item h1 img {
+  width: 125px;
+}
+
+.item:hover {
+  color: #2fc8ca;
+}

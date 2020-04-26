@@ -1,0 +1,42 @@
+@media screen and (min-width: 769px) {
+
+  .header {
+    position: fixed;
+    width: 100%;
+    height: 64px;
+    background-color: #ffffff;
+    z-index: 90;
+    top: 0;
+  }
+
+  .navi {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+  }
+
+  .navi li {
+    font-size: 1.2rem;
+    margin-right: 35px;
+    padding-top: 35px;
+  }
+
+  .navi li:first-child {
+    padding-top: 13px;
+    margin-right: 70px;
+  }
+
+  .navi li:last-child {
+    margin-right: 0;
+  }
+
+
+
+}

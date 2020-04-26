@@ -1,0 +1,99 @@
+{
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "plugins": [
+    "@typescript-eslint",
+    "import",
+    "prettier",
+    "react"
+  ],
+  "extends": [
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier/@typescript-eslint",
+    "plugin:react/recommended",
+    "prettier/react"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "sourceType": "module"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    },
+    "import/extensions": [
+      ".js",
+      ".jsx",
+      ".json",
+      ".ts",
+      ".tsx",
+      ".scss"
+    ],
+    "import/parsers": {
+      "@typescript-eslint/parser": [
+        ".ts",
+        ".tsx"
+      ]
+    },
+    "import/resolver": {
+      "node": {
+        "extensions": [
+          ".js",
+          ".jsx",
+          ".ts",
+          ".tsx"
+        ]
+      },
+      "typescript": {
+        "directory": [
+          "./*/tsconfig.json"
+        ]
+      }
+    }
+  },
+  "rules": {
+    "no-underscore-dangle": "off",
+    "operator-linebreak": "off",
+    "import/prefer-default-export": "off",
+    "max-classes-per-file": "off",
+    "no-console": "warn",
+    "no-unused-expressions": [
+      "warn",
+      {
+        "allowShortCircuit": true
+      }
+    ],
+    "func-names": [
+      "warn",
+      "as-needed"
+    ],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": [
+          "**/*.test.js",
+          "**/*.test.jsx",
+          "**/*.test.ts",
+          "**/*.test.tsx",
+          "**/*.e2e.js",
+          "**/*.e2e.jsx",
+          "**/*.e2e.ts",
+          "**/*.e2e.tsx"
+        ]
+      }
+    ],
+    "react/jsx-filename-extension": "off",
+    "@typescript-eslint/no-var-requires": "off",
+    "no-param-reassign": "off",
+    "import/no-unresolved": "off",
+    "import/extensions": "off",
+    "@typescript-eslint/consistent-type-assertions": "off",
+    "react/display-name": "off",
+    "react/prop-types": "off"
+  }
+}

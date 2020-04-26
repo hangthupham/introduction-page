@@ -1,0 +1,115 @@
+@media screen and (min-width: 769px) {
+
+  .panels {
+    width: 100%;
+    min-height: 200%;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: relative;
+    z-index: 100;
+    text-align: center;
+    opacity: 1;
+    transition: opacity 0.3s ease 0s;
+  }
+
+  .panels h2 {
+    background-color: #2fc8ca;
+    display: inline-block;
+    color: #000000;
+    font-size: 1.6rem;
+    font-weight: normal;
+    padding: 5px 5px 3px 5px;
+
+  }
+
+  .panels h3 {
+    color: #ffffff;
+    font-size: 3.2rem;
+    font-weight: normal;
+    padding: 30px 0px 40px 0px;
+  }
+
+  .panels a {
+    color: #2fc8ca;
+    text-decoration: none;
+  }
+
+  .panels a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+
+  .closeAreaTop {
+    width: 900px;
+    margin: 0px auto;
+    text-align: right;
+  }
+
+  .closeAreaTop img {
+    width: 45px;
+  }
+
+  .closeAreaBottom {
+    width: 900px;
+    margin: 0px auto;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-top: 100px;
+  }
+
+  .closeAreaBottom img {
+    width: 45px;
+  }
+
+  .recruit {
+    display: none;
+    margin-top: 100vw;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-top: 100vw;
+    padding-top: 30px;
+  }
+
+  .recruitContainer {
+    width: 900px;
+    margin: 0px auto;
+  }
+
+  .recruitContainer p {
+    color: #ffffff;
+    font-size: 1.4rem;
+  }
+
+  @keyframes slideInUp {
+    from {
+      transform: translate3d(0, 100%, 0);
+      visibility: visible;
+    }
+
+    to {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  .slideInUp {
+    animation-name: slideInUp;
+    animation-duration: 0.5s;
+  }
+
+  @keyframes slideOutDown {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+
+    to {
+      visibility: hidden;
+      transform: translate3d(0, 100%, 0);
+    }
+  }
+
+  .slideOutDown {
+    animation-name: slideOutDown;
+    animation-duration: 0.7s;
+    animation-delay: 0.1s;
+  }
+}
